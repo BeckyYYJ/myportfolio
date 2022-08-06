@@ -1,0 +1,34 @@
+$icon-size: 50px;
+.projects-preview {
+
+  width: 500px;
+  margin: 20px auto;
+  .projects-preview-bottom {
+    display: flex;
+    //grid-auto-columns: ;
+    flex-flow: wrap;
+    section {
+      margin:5px;
+      width: 40%;
+    }
+  }
+
+  .projects-preview-top {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    h1 {
+      margin: 0 auto;
+    }
+    img {
+      width: $icon-size;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projects-preview {
+    flex-flow: column wrap;
+  }
+}
