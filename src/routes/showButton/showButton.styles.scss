@@ -1,0 +1,16 @@
+@import '../../index';
+.showButton-container Button{
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  //background: none;
+}
+
+.showButton-container{
+  padding: 10px;
+  justify-content: space-evenly;
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  background-color: $bg;
+}

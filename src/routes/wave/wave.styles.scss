@@ -1,0 +1,226 @@
+.wave-page-nav {
+  position: absolute;
+  right: 10px;
+  //top:-40px;
+  width: 180px;
+  height: 180px;
+  background-color: #2ac2d5;
+  //background-color: transparent;
+  //border-radius: 80px;
+  //clip-path: circle();
+  clip-path: circle(50.3% at 100% 0);
+  z-index: 5;
+  transition: 0.5s;
+  .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    font-size: 40px;
+  }
+  .home {
+    position: absolute;
+    top: 65px;
+    right: 65px;
+    font-size: 30px;
+    clip-path: circle();
+    background-color: rgba(255, 164, 218, 0.53);
+    padding: 10px;
+    transition: 0.2s;
+    &:hover {
+      background-color: rgba(255, 164, 218);
+      padding: 15px;
+    }
+  }
+  &:hover {
+    clip-path: circle(100% at 100% 0);
+    width: 180px;
+    height: 180px;
+
+  }
+
+}
+
+.wave-page-container {
+  width: 100vw;
+  height: 100vh;
+  perspective: 5px;
+  overflow-x: hidden;
+  //display: flex;
+  flex-direction: column;
+  .wave-page-title {
+    margin: 0 20px;
+    font-size: 9vw;
+    z-index: 1;
+    position: relative;
+    font-family: Ubuntu;
+  }
+  .btn {
+    left: 40%;
+    z-index: 1;
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    width: 20%;
+    height: 80px;
+    transition: 0.5s;
+    background-color: transparent;
+    //border: 1px solid black;
+    &:hover {
+      border: 1px solid transparent;
+      background-color: pink;
+      background-image: linear-gradient(
+                      45deg,
+                      rgba(255, 255, 255, 0.2) 25%,
+                      transparent 25%,
+                      transparent 50%,
+                      rgba(255, 255, 255, 0.2) 50%,
+                      rgba(255, 255, 255, 0.2) 75%,
+                      transparent 75%,
+                      transparent
+      );
+    }
+    border-radius: 50px;
+    //border: 4px solid slategray;
+  }
+
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: pink;
+    background-image: linear-gradient(
+                    45deg,
+                    rgba(255, 255, 255, 0.2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, 0.2) 50%,
+                    rgba(255, 255, 255, 0.2) 75%,
+                    transparent 75%,
+                    transparent
+    );
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+    background: #ededed;
+    border-radius: 10px;
+  }
+}
+
+.wave-page-container img {
+  //scroll-snap-align: center;
+  margin: 0 auto;
+  //width: 100vw;
+  position: absolute;
+  bottom: -100px;
+}
+
+.wave1 {
+  opacity: 40%;
+  transform: translateZ(-5px) scale(1.6) translateX(-350px);
+  height: 120vh;
+  width: 170vw;
+  animation: wave-move 5s infinite;
+}
+
+.wave2 {
+  opacity: 80%;
+  transform: translateZ(0px) scale(1.4) translateY(-50px);
+}
+
+.wave3 {
+  opacity: 90%;
+  transform: translateZ(1px);
+  //height: 40vh;
+  width: 100vw;
+  left: 5vw;
+  height: 170vh;
+  top: 10px;
+}
+
+.wave4 {
+  transform: translateZ(2px);
+  height: 100vh;
+  left: 10vw;
+  width: 100vw;
+  top: 50vh;
+}
+
+@keyframes wave-move {
+  50% {
+    transform: translateZ(-5px) scale(1.6) translateX(-200px);
+  }
+}
+
+.panel {
+  width: 36vw;
+  height: 290px;
+  transform: translateZ(2px);
+  position: absolute;
+  z-index: 1;
+  background-color: #fffcf6;
+  top: 130vh;
+  left: 32vw;
+  //overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  /* 背景模糊 */
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  //padding: 15px;
+  .panel-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+
+    .panel-title {
+      font-family: fantasy, Ubuntu;
+      letter-spacing: 1px;
+    }
+    .panel-desc {
+      font-family: "Times New Roman", Ubuntu;
+      //height: 30vh;
+      width: 100%;
+      font-size: 0.5vw;
+      text-overflow-ellipsis: hidden;
+    }
+  }
+  .panel-head {
+    width: 200px;
+    height: 140px;
+    border-radius: 15px;
+    position: relative;
+    left: -50px;
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  .panel-btn {
+    margin-left: 15px;
+    width: 5%;
+    //position: absolute;
+    right: -10px;
+    div {
+      transition: 0.5s;
+      margin: 5px 0;
+      width: 8px;
+      height: 8px;
+      background-color: #959595;
+      border-radius: 5px;
+    }
+    .chosen {
+      background-color: #2193b0;
+      height: 25px;
+    }
+  }
+
+}
+

@@ -1,10 +1,16 @@
 .navigation-container {
-  background-color: black;
-  height: 50px;
-  line-height: 50px;
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+  //background-color: transparent;
+  height: 6.5vh;
+  align-items: center;
+  //line-height: 50px;
   color: aliceblue;
   display: flex;
   justify-content: space-between;
+  background-color: #26143c;
+  //background: linear-gradient(90.21deg, rgba(125,38,170,0.5) -5.91%, rgba(74, 47, 189, 0.1) 111.58%);
   div {
     padding: 1px;
     span{

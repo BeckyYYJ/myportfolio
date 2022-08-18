@@ -1,0 +1,99 @@
+$length:80px;
+$width:40px;
+$height:20px;
+//$light-side: #b1fffa;
+//$dark-side: #a5f2ed;
+//$border-color: #93d5d0;
+$light-side: #4c4446;
+$dark-side: #363132;
+$border-color: #2f282a;
+.cube3{
+
+  position: absolute;
+
+  //background-color: pink;
+}
+.c2{
+  position: relative;
+  transform-style: preserve-3d;
+  div{
+    transition: 0.5s;
+  }
+
+}
+.c2:hover{
+  cursor: pointer;
+  transform: translateY(-15px);
+  div:nth-child(5){
+     span{
+       color: white;
+     }
+    background-color: #ff5e00 !important;
+  }
+  div{
+    background-color: #b74200 !important;
+  }
+}
+.cube3-icon{
+  transform-style: flat;
+  color: #959595;
+  font-size: 20px;
+}
+.front3{
+  width: $width;  height: $height;
+  transform: translateZ($length/2);
+  background-color: $dark-side;
+  border: 1px solid $border-color;
+}
+
+.back3 {
+  width: $width;
+  height: $height;
+  transform: translateZ(-$length/2);
+  background-color: $dark-side;
+  border: 1px solid $border-color;
+}
+
+.left3{
+  left: -20px;
+  width: $length;
+  height: $height;
+  transform: rotateY(90deg) translateZ(-$width/2);
+  background-color: $dark-side;
+  border: 1px solid $border-color;
+}
+
+.right3{
+  width: $length;
+  height: $height;
+  left: -20px;
+  background-color: $dark-side;
+  transform: rotateY(90deg) translateZ($width/2);
+  border: 1px solid $border-color;
+}
+
+.up3{
+  width: $width;
+  height: $length;
+  top:-30px;
+  transform: rotateX(90deg) translateZ($height/2);
+  background-color: $light-side;
+  //border: 1px solid $border-color;
+
+}
+
+.down3{
+  top:-30px;
+  width: $width;
+  height: $length;
+  background-color:$dark-side;
+  transform: rotateX(90deg) translateZ(-$height/2);
+  border: 1px solid $border-color;
+}
+
+.shadow{
+  width: $width*8;
+  height: $length;
+  transform: rotateX(90deg) translateZ(-$height);
+  background-color: rgba(82, 70, 72, 0.34);
+}

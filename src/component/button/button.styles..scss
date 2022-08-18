@@ -1,0 +1,309 @@
+@import '../../index';
+
+$btn1: #ff9794;  $btn2: #ffaf17;  $btn3:  #fffa00;
+$btn4: #acff05;  $btn5: #68ff9d;$btn6: #95fffc;
+$btn7: #fe24ff;  $btn8: #f473ff;$btn9: #ff87ca;
+$btn10: #ff6c95;
+
+
+
+.btn-animated {
+  transition: 0.7s;
+}
+
+//.red {
+//  border: $btn1 2px solid;
+//  color: $btn1;
+//  &:before{
+//    background: linear-gradient(90deg, $btn1, $btn1) no-repeat;
+//  }
+//  &:after{
+//    background: linear-gradient(90deg, $btn1, $btn1) no-repeat;
+//  }
+//}
+
+.colorful-animated-button1 {
+  border: $btn1 2px solid;
+  color: $btn1;
+  background: linear-gradient(90deg, $btn1, $btn1) no-repeat;
+  background-size: 0 100%;
+  &:hover {
+    color: $bg;
+    background-size: 100% 100%;
+  }
+}
+
+.colorful-animated-button2 {
+  border: $btn2 2px solid;
+  color: $btn2;
+  background: linear-gradient(90deg, $btn2, $btn2) no-repeat;
+  background-size: 100% 0;
+  &:hover {
+    color: $bg;
+    background-size: 100% 100%;
+  }
+}
+
+.colorful-animated-button3 {
+  border: $btn3 2px solid;
+  color: $btn3;
+  background: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: -5px;
+    width: 0;
+    height: 101%;
+    background-color: $btn3;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      //left: 0;
+      width: 105%;
+      //right: 0;
+    }
+  }
+}
+
+.colorful-animated-button4 {
+  border: $btn4 2px solid;
+  color: $btn4;
+  position: relative;
+  background: none;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: -5px;
+    width: 1px;
+    height: 100%;
+    background-color: $btn4;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      left: 0;
+      width: 103%;
+    }
+  }
+}
+
+.colorful-animated-button5 {
+  border: $btn5 2px solid;
+  color: $btn5;
+  position: relative;
+  background: none;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 49%;
+    left: 49%;
+    width: 0;
+    height: 100%;
+    background-color: $btn5;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      left: 0;
+      right: 0;
+      width: 103%;
+    }
+  }
+
+}
+
+.colorful-animated-button7 {
+  background: none;
+  border: $btn7 2px solid;
+  color: $btn7;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(45deg);
+    bottom: 0;
+    width: 0;
+    left: -30px;
+    height: 100%;
+    background-color: $btn7;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      //left: 0;
+      //right: 0;
+      width: 200%;
+    }
+  }
+}
+
+.colorful-animated-button8 {
+  background: none;
+  border: $btn8 2px solid;
+  color: $btn8;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(40deg);
+    bottom: 0;
+    width: 0;
+    left: -20px;
+    height: 100%;
+    background-color: $btn8;
+    z-index: -1;
+  }
+  &:after {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(40deg);
+    bottom: 0;
+    width: 1px;
+    right: -20px;
+    height: 100%;
+    background-color: $btn8;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      width: 90%;
+    }
+    &:hover:after {
+      width: 90%;
+    }
+  }
+}
+
+.colorful-animated-button6 {
+  background: none;
+  border: $btn6 2px solid;
+  color: $btn6;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 0;
+    left: -20px;
+    height: 100%;
+    background-color: $btn6;
+    z-index: -1;
+  }
+  &:after {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    right: -20px;
+    height: 100%;
+    background-color: $btn6;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      width: 90%;
+    }
+    &:hover:after {
+      width: 90%;
+    }
+  }
+}
+
+.colorful-animated-button9 {
+  background: none;
+  border: $btn9 2px solid;
+  color: $btn9;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(40deg);
+    bottom: 0;
+    width: 0;
+    right: -20px;
+    height: 100%;
+    background-color: $btn9;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      width: 150%;
+      left: -20px;
+    }
+  }
+}
+
+.colorful-animated-button10 {
+  cursor: pointer;
+  background: none;
+  border: $btn2 2px solid;
+  color: $btn2;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(45deg);
+    bottom: 0;
+    width: 0;
+    //clip-path: circle();
+    left: -30px;
+    height: 100%;
+    background-color: $btn2;
+    z-index: -1;
+  }
+  &:hover {
+    color: white;
+    &:hover:before {
+      //left: 0;
+      //right: 0;
+      width: 200%;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.Threephoto-container{
+  //transform: rotateY(45deg);
+  ////perspective: 0;
+  //transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.cube-container{
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  //background-color: #bdc3c9;
+  //transform: rotateY(45deg) rotateX(45deg);
+  transform-style: preserve-3d;
+  //align-items: center;
+  //justify-content: center;
+  //position: absolute;
+  //transform-origin: 100px 100px 100px;
+}
+.cube-container2{
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  //background-color: #bdc3c9;
+  transform: rotateY(4deg) rotateX(-75deg);
+  transform-style: preserve-3d;
+}
+.cube-container3{
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  //background-color: #bdc3c9;
+  transform: rotateY(57deg) rotateZ(-40deg) rotateX(-21deg);
+  transform-style: preserve-3d;
+}
+
+.cube-container div:hover{
+  opacity: 0.5;
+  background-color: #ffffff;
+//background:none;
+  //border: 2px black solid;
+}

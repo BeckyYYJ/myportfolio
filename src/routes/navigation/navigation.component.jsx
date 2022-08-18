@@ -1,13 +1,15 @@
 import './navigation.styles.scss'
-import {Outlet} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
+import {useEffect, useState} from "react";
 
 const Navigation = () => {
+
     return (
         <>
             <div className="navigation-container">
                 <div>
                     <span className="navi-name">Yingji Yan</span>
-                    <span className="navi-projects">Projects</span>
+                    <Link to="/projects"><span className="navi-projects">Projects</span></Link>
                     <span className="nave-skills">Skills</span>
                 </div>
                 <div>
