@@ -1,26 +1,30 @@
 [
   {
-    "name":"crown clothing",
+    "name":"Crown Clothing",
     "id":1,
-    "description":"an e-commerencial web where you can buy clothes",
-    "url":"url"
+    "description":"an e-commercial website where users can buy clothes",
+    "url":"url",
+    "img":"./assets/p1.gif"
   },
   {
-    "name":"crown clothing",
+    "name":"Stock Search",
     "id":2,
-    "description":"an e-commerencial web where you can buy clothes",
-    "url":"url"
+    "description":"an website where users can search and trade stocks.",
+    "url":"url",
+    "img":"./assets/p2.gif"
   },
   {
     "name":"crown clothing",
     "id":3,
     "description":"an e-commerencial web where you can buy clothes",
-    "url":"url"
+    "url":"url",
+    "img":"./assets/360photo.gif"
   },
   {
     "name":"crown clothing",
     "id":4,
     "description":"an e-commerencial web where you can buy clothes",
-    "url":"url"
+    "url":"url",
+    "img":"./assets/wave.gif"
   }
 ]

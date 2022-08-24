@@ -40,8 +40,9 @@ export const Banner = () => {
                 <div className="banner-left">
                     <span className='tag'>Welcome To My Portfolio</span>
                     <span className='span-title'>{text}</span>
-                    <span className='span-text'>daohvpohroe fnlsdircv fsdnvlkserhl vsjsosv rg,
-                        daohvpohroe fnlsdircv fsdnvlkserhl vsjsosv rg</span>
+                    <span className='span-text'>Hello, I am currently a graduate student at USC Viterbi School of Engineering.
+                    I am looking for a job as a SDE.
+                    </span>
                 </div>
                 <div className="banner-right">
                     <img src='./assets/header-img.svg' className="banner-image"/>

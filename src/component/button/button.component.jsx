@@ -1,8 +1,8 @@
 import './button.styles..scss'
-const Button = ({type,text='A button'}) => {
+const Button = ({type,text='A button',...otherProps}) => {
     return (
         <>
-            <button className={`btn-animated colorful-animated-button${type}`}>{text}</button>
+            <button className={`btn-animated colorful-animated-button${type}`} {...otherProps}>{text}</button>
         </>
     )
 };

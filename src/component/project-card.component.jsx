@@ -16,7 +16,7 @@ const ProjectCard=({project})=>{
                     <span className="projectCard-descr">{project.description}</span>
                     <Link to='/'></Link>
                 </div>):
-                <img src='./assets/p1.gif' className="projectCard-gif"/>
+                <img src={project.img} className="projectCard-gif"/>
             }
         </section>
     )

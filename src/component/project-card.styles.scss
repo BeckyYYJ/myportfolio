@@ -1,8 +1,11 @@
 .projectCard-gif {
   width: 100%;
   border-radius: 10px;
-  border: #ababab dashed 1px;
+  //border: #ababab dashed 1px;
   padding: 2px;
+  //clip-path: circle();
+  height: 230px;
+  box-shadow: 5px 2px 20px #d6d6d6;
 }
 
 .projectCard-detail {
@@ -10,7 +13,7 @@
   border-radius: 10px;
   background-color: rgba(120, 124, 186, 0.58);
   width: 100%;
-  height: 100%;
+  height: 230px;
   display: flex;
   flex-direction: column;
   span {
