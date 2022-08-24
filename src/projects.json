@@ -3,28 +3,28 @@
     "name":"Crown Clothing",
     "id":1,
     "description":"an e-commercial website where users can buy clothes",
-    "url":"url",
-    "img":"./assets/p1.gif"
+    "url":"https://fantastic-chimera-18aed6.netlify.app",
+    "img":"./assets/react/p-react-2.gif"
   },
   {
     "name":"Stock Search",
     "id":2,
     "description":"an website where users can search and trade stocks.",
-    "url":"url",
-    "img":"./assets/p2.gif"
+    "url":"https://mystocksearch.netlify.app",
+    "img":"./assets/react/p-react-3.gif"
   },
   {
-    "name":"crown clothing",
+    "name":"",
     "id":3,
-    "description":"an e-commerencial web where you can buy clothes",
+    "description":"",
     "url":"url",
-    "img":"./assets/360photo.gif"
+    "img":"https://assignment6-341603.wl.r.appspot.com/"
   },
   {
-    "name":"crown clothing",
+    "name":"Android APP of Stock Search",
     "id":4,
-    "description":"an e-commerencial web where you can buy clothes",
-    "url":"url",
-    "img":"./assets/wave.gif"
+    "description":"",
+    "url":null,
+    "img":"./assets/others/android.gif"
   }
 ]

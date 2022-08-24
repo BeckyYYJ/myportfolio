@@ -4,6 +4,7 @@ import projectIcon from "../../assets/icons/projects.svg";
 import {Link} from "react-router-dom";
 import projects from "../../projects";
 import ProjectCard from "../project-card.component";
+import Button from "../button/button.component";
 
 export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
@@ -40,36 +41,22 @@ export const Banner = () => {
                 <div className="banner-left">
                     <span className='tag'>Welcome To My Portfolio</span>
                     <span className='span-title'>{text}</span>
-                    <span className='span-text'>Hello, I am currently a graduate student at USC Viterbi School of Engineering.
-                    I am looking for a job as a SDE.
+                    <span className='span-text'>
+                        Hello, I am currently a graduate student at USC Viterbi School of Engineering.
+                    I am looking for a job as a SDE/SWE.
                     </span>
                 </div>
                 <div className="banner-right">
                     <img src='./assets/header-img.svg' className="banner-image"/>
                 </div>
             </div>
-            {/*<div className='test'>dadawd</div>*/}
-            {/*<div className="banner-container2">*/}
-            {/*</div>*/}
-            {/*<div className="banner-item-container">*/}
-            {/*<div className="banner-left">*/}
-            {/*<span className='tag'>Welcome To My Portfolio</span>*/}
-            {/*<span className='span-title'>{text}</span>*/}
-            {/*<span className='span-text'>daohvpohroe fnlsdircv fsdnvlkserhl vsjsosv rg,*/}
-            {/*daohvpohroe fnlsdircv fsdnvlkserhl vsjsosv rg</span>*/}
-            {/*</div>*/}
-            {/*/!*<div className="banner-right">*!/*/}
-            {/*/!*<img src='./assets/cat2.png' className="banner-image"/>*!/*/}
-            {/*/!*</div>*!/*/}
-            {/*</div>*/}
             <div className="projects-preview-container">
                     <div className="projects-preview-top">
                         <img src={projectIcon} className="projectIcon"/>
                         <h1 className="projects-preview-title">
                             Selected Projects
                         </h1>
-                        <span>I selected some apps i've built.Click the gif to redirect,
-                        or <Link to='/'>SHOW MORE</Link> to see more projects.</span>
+                        <Button type={7} text="SHOW MORE"/>
                     </div>
                     <div className="projects-preview-bottom">
                         {projects.map((project) => {
@@ -92,16 +79,13 @@ export const Banner = () => {
 
                     </div>
                     <div className='card'>
-
                     </div>
                     <div className='card'>
 
                     </div>
                 </div>
             </div>
-
             <div className="projects-preview-container">
-
             </div>
         </div>
     )

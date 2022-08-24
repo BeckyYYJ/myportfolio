@@ -12,7 +12,6 @@ const ProjectPreview = ({title, projects,url}) => {
                 {title} <Button type={1} text="Check Out" onClick={goto}/>
             </div>
             <div className="projects-cards-container2">
-
                 {projects.map((p) => {
                     return (<ProjectCard project={p}/>);
                 })}

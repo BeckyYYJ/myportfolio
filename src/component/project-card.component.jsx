@@ -8,13 +8,17 @@ const ProjectCard=({project})=>{
     const handle = () => {
         setIsProjectDetailsShow(true);
     };
+    const redirect = ()=>{
+        if(project.url!==null)
+        window.open(project.url);
+    };
     return (
-        <section className="projectCard-container" onMouseOver={handle} onMouseOut={()=>setIsProjectDetailsShow(false)} >
+        <section className="projectCard-container" onClick={redirect} onMouseOver={handle} onMouseOut={()=>setIsProjectDetailsShow(false)} >
             {isProjectDetailsShow ? (
                 <div className="projectCard-detail animate__animated animate__fadeIn">
                     <span className="projectCard-name">{project.name}</span>
                     <span className="projectCard-descr">{project.description}</span>
-                    <Link to='/'></Link>
+                    Redirect
                 </div>):
                 <img src={project.img} className="projectCard-gif"/>
             }
