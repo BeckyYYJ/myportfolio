@@ -5,10 +5,11 @@ $btn4: #acff05;  $btn5: #68ff9d;$btn6: #95fffc;
 $btn7: #fe24ff;  $btn8: #f473ff;$btn9: #ff87ca;
 $btn10: #ff6c95;
 
-
+$btn8-showMore: #21d4fd;
 
 .btn-animated {
   transition: 0.7s;
+  cursor: pointer;
 }
 
 //.red {
@@ -196,6 +197,51 @@ $btn10: #ff6c95;
   }
   &:hover {
     color: $bg;
+    &:hover:before {
+      width: 90%;
+    }
+    &:hover:after {
+      width: 90%;
+    }
+  }
+}
+.colorful-animated-button8-showMore{
+  background: none;
+  border: $btn8-showMore 2px solid;
+  color: $btn8-showMore;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(40deg);
+    bottom: 0;
+    width: 0;
+    left: -20px;
+    height: 100%;
+    //background-color: $btn8-showMore;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    z-index: -1;
+  }
+  &:after {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    transform: skew(40deg);
+    bottom: 0;
+    width: 1px;
+    right: -20px;
+    height: 100%;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    //background-color: $btn8-showMore;
+    z-index: -1;
+  }
+  &:hover {
+    color: white;
     &:hover:before {
       width: 90%;
     }

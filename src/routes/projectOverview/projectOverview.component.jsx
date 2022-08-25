@@ -9,7 +9,7 @@ const ProjectOverview = () => {
                     description:
                         '',
                     url:
-                        '',
+                        'https://yingjiyan.github.io/a3/page1.html',
                     github:
                         '',
                     img:
@@ -20,7 +20,7 @@ const ProjectOverview = () => {
                         description:
                             '',
                         url:
-                            '',
+                            '/wave',
                         github:
                             '',
                         img:
@@ -32,7 +32,7 @@ const ProjectOverview = () => {
                 description:
                     '',
                 url:
-                    '',
+                    '/360Photo',
                 github:
                     '',
                 img:
@@ -42,7 +42,7 @@ const ProjectOverview = () => {
                 description:
                     '',
                 url:
-                    '',
+                    '/universePhoto',
                 github:
                     '',
                 img:
@@ -54,7 +54,7 @@ const ProjectOverview = () => {
                 description:
                     'A simple Web page shows weather forecasts in 5 days',
                 url:
-                    '',
+                    'https://fuhei-weather-forecast.netlify.app/',
                 github:
                     '',
                 img:

@@ -17,14 +17,14 @@
     "name":"",
     "id":3,
     "description":"",
-    "url":"url",
-    "img":"https://assignment6-341603.wl.r.appspot.com/"
+    "url":"https://assignment6-341603.wl.r.appspot.com/",
+    "img":"./assets/js/p-js-3.gif"
   },
   {
     "name":"Android APP of Stock Search",
     "id":4,
     "description":"",
-    "url":null,
+    "url": null,
     "img":"./assets/others/android.gif"
   }
 ]

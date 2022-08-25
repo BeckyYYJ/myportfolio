@@ -25,6 +25,7 @@ function App() {
             <Route path='/universePhoto' element={<Js2/>}/>
             <Route path='/3d' element={<ThreeDphoto/>}/>
             <Route path='/wave' element={<Wave/>}/>
+            {/*<Route path='/weather' element={<Weather/>}/>*/}
         </Routes>
     );
 }

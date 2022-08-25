@@ -7,7 +7,6 @@ const ProjectPreview = ({title, projects,url}) => {
     const goto = ()=> navigat(url);
     return (
         <div className="projects-preview-container2">
-
             <div className="projects-preview-title">
                 {title} <Button type={1} text="Check Out" onClick={goto}/>
             </div>
