@@ -4,12 +4,15 @@ $btn1: #ff9794;  $btn2: #ffaf17;  $btn3:  #fffa00;
 $btn4: #acff05;  $btn5: #68ff9d;$btn6: #95fffc;
 $btn7: #fe24ff;  $btn8: #f473ff;$btn9: #ff87ca;
 $btn10: #ff6c95;
-
+$btn6-c: #ffffff;
 $btn8-showMore: #21d4fd;
 
 .btn-animated {
   transition: 0.7s;
+  height: fit-content;
   cursor: pointer;
+  line-height: normal;
+
 }
 
 //.red {
@@ -280,6 +283,52 @@ $btn8-showMore: #21d4fd;
     right: -20px;
     height: 100%;
     background-color: $btn6;
+    z-index: -1;
+  }
+  &:hover {
+    color: $bg;
+    &:hover:before {
+      width: 90%;
+    }
+    &:hover:after {
+      width: 90%;
+    }
+  }
+}
+.colorful-animated-button6-contacts-active{
+  background-color: $btn6-c;
+}
+.colorful-animated-button6-contacts{
+  background: none;
+  border-radius: 1px;
+  margin: 0 10px;
+  border: $btn6-c 1px solid;
+  color: $btn6-c;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &:before {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 0;
+    left: -20px;
+    height: 100%;
+    background-color: $btn6-c;
+    z-index: -1;
+  }
+  &:after {
+    transition: all 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    right: -20px;
+    height: 100%;
+    background-color: $btn6-c;
     z-index: -1;
   }
   &:hover {

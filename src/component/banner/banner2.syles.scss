@@ -200,12 +200,14 @@ $icon-size: 50px;
   }
 
   .projects-preview-top {
-    margin: 10px auto;
+    margin: 0 auto;
     width: 80%;
     display: flex;
     flex-flow: column;
+    font-weight: bold;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 1.5em;
     & *{
       margin: 8px;
     }
@@ -218,7 +220,7 @@ $icon-size: 50px;
     //  margin: 0 auto;
     //}
     button{
-      font-size: 1.3em;
+      font-size: 1em;
       height: 50px;
       width: 42%;
     }
@@ -261,7 +263,7 @@ $icon-size: 50px;
   display: flex;
   justify-content: space-between;
 }
-.card{
+.mycard{
   /* 相对定位 */
   position: relative;
   width: 280px;

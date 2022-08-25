@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
+
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Button from "./button/button.component";
 
 const Example=() =>{
     const [show, setShow] = useState(false);
@@ -10,20 +11,24 @@ const Example=() =>{
 
     return (
         <>
-            <Button variant="primary" onClick={handleShow}>
-                Launch
-            </Button>
+            {/*<Button variant="dark" onClick={handleShow}>*/}
+                {/*Contacts*/}
+            {/*</Button>*/}
+            <Button type={show?"6-contacts-active":"6-contacts"} onClick={handleShow} text="Contacts"/>
 
-            <Offcanvas show={show} onHide={handleClose} placement="right">
+            <Offcanvas show={show} onHide={handleClose} >
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                    <Offcanvas.Title>Contacts</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    Some text as placeholder. In real life you can have the elements you
-                    have chosen. Like, text, images, lists, etc.
+                    <div>
+                    Email: yingjiya@usc.edu
+                    Github:https://github.com/beckyyyj
+                    Linkedlin:https://www.linkedin.com/in/yingjiyan/
+                    </div>
                 </Offcanvas.Body>
             </Offcanvas>
         </>
     );
-}
+};
 export default Example;

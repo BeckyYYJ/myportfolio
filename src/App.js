@@ -10,6 +10,7 @@ import Wave from "./routes/wave/wave.component";
 import ShowButton from "./routes/showButton/showButton.component";
 import ProjectOverview from "./routes/projectOverview/projectOverview.component";
 import LoadingPage from "./routes/loadingPage/loadingPage.component";
+import Test from "./routes/css1/test";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route index element={<Home/>}/>
                 <Route path='/projects' element={<ProjectOverview/>}/>
                 <Route path='projects/:category' element={<Project/>}/>
+                {/*<Route path='projects/:category' element={<Test project="./assets/css/p-css-1"/>}/>*/}
                 <Route path='projects/loading' element={<LoadingPage/>}/>
                 <Route path='projects/button' element={<ShowButton/>}/>
             </Route>

@@ -8,6 +8,7 @@ import Js1 from "../../component/js/js1.component";
 import LoadingPage from "../loadingPage/loadingPage.component";
 import {useState} from "react";
 import {useParams} from 'react-router-dom'
+import ProjectCard from "../../component/project-card.component";
 
 const data = [
     {
@@ -39,7 +40,6 @@ const data = [
 
 const Project = () => {
     const {category} = useParams();
-
     const allProjects = {
         css:
             [{
@@ -47,44 +47,44 @@ const Project = () => {
                 description:
                     '',
                 url:
-                    '',
+                    'https://yingjiyan.github.io/a3/page1.html',
                 github:
                     '',
                 img:
-                    'assets/css/p-css-1.gif'
+                    './../assets/css/p-css-1.gif'
             },
                 {
                     name: 'Static Html/Css Web page',
                     description:
                         '',
                     url:
-                        '',
+                        '/wave',
                     github:
                         '',
                     img:
-                        'assets/css/p-css-3.gif'
+                        './../assets/css/p-css-3.gif'
                 },
             ],
-        js: [{
+        js: [ {
             name: 'Static Js Web page',
             description:
                 '',
             url:
-                '',
+                '/360Photo',
             github:
                 '',
             img:
-                'assets/js/p-js-1.gif'
-        }, {
+                '../assets/js/p-js-1.gif'
+        },{
             name: 'Static Js Web page',
             description:
                 '',
             url:
-                '',
+                '/universePhoto',
             github:
                 '',
             img:
-                'assets/js/p-js-2.gif'
+                './../assets/js/p-js-2.gif'
         }
         ],
         react: [{
@@ -92,11 +92,11 @@ const Project = () => {
             description:
                 'A simple Web page shows weather forecasts in 5 days',
             url:
-                '',
+                'https://fuhei-weather-forecast.netlify.app/',
             github:
                 '',
             img:
-                'assets/react/p-react-1.gif'
+                './../assets/react/p-react-1.gif'
         }],
         others: [            {title:"beautiful buttons"},
             {title:"beautiful CSS animations showing loading state"},
@@ -136,9 +136,9 @@ const Project = () => {
         <div className="projects-page-container">
             <div className="menu-container">
                 {
-                    data.map((d) => {
+                    data.map((d,index) => {
                         return (
-                            <MenuItem projects={d.projects} title={d.title} icon={d.icon} page={d === page}/>
+                            <MenuItem key={index} projects={d.projects} title={d.title} icon={d.icon} page={d === page}/>
                         )
                     })
                 }

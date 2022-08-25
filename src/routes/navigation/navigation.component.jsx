@@ -1,26 +1,29 @@
 import './navigation.styles.scss'
 import {Link, Outlet} from 'react-router-dom'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Example from "../../component/aaa";
+import Button from "../../component/button/button.component";
+
+import React from "react";
 const Navigation = () => {
     return (
         <>
+
             <div className="navigation-container">
                 <div>
                     <span className="navi-name">Yingji Yan</span>
-                    <Link to="/projects"><span className="navi-projects">Projects</span></Link>
+                    <Link to="/projects"><Button  type="6-contacts" text="Projects" /></Link>
                     {/*<a href="#skills">*/}
                     {/*<span className="nave-skills">Skills</span>*/}
                     {/*</a>*/}
                 </div>
                 <div>
-                <span className="Contacts">
-                contacts
-                </span>
+                    <Example/>
+                {/*<span className="Contacts">*/}
+                {/*contacts*/}
+                {/*</span>*/}
                 </div>
             </div>
+
             {/*<Navbar bg="dark" expand="lg" variant="dark">*/}
                 {/*<Container>*/}
                     {/*<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>*/}

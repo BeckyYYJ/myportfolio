@@ -7,6 +7,7 @@ import ProjectCard from "../project-card.component";
 import Button from "../button/button.component";
 import Badge from "../Badge/badge.component";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import {Contacts} from "../contacts/contacts.component";
 
 export const Banner = () => {
 
@@ -55,6 +56,7 @@ export const Banner = () => {
 
     return (
         <div className="shell">
+
             {/*<Offcanvas show={show} onHide={handleClose}>*/}
             {/*<Offcanvas.Header closeButton>*/}
             {/*<Offcanvas.Title>Offcanvas</Offcanvas.Title>*/}
@@ -123,10 +125,9 @@ export const Banner = () => {
             <div className="projects-preview-container" >
                 <div className="projects-preview-top">
                     <img src={projectIcon} className="projectIcon"/>
-                    <h1 className="projects-preview-title">
+                    <p className="projects-preview-title">
                         Selected Projects
-                    </h1>
-
+                    </p>
                     <Button type="8-showMore" text="SHOW MORE" onClick={goToProjects}/>
 
                 </div>
@@ -145,24 +146,24 @@ export const Banner = () => {
             {/*<img src='./assets/cat.png' className="footer-image"/>*/}
             <div className="skills-container"  id="skills">
                 <div className="cards-container">
-                    <div className='card'>
+                    <div className='mycard'>
                         <h1>SKILLS</h1>
                     </div>
-                    <div className='card'>
+                    <div className='mycard'>
                         <div className="card-2">
                             {
                                 SKILLS1.map((s, index) => <Badge key={index} text={s}/>)
                             }
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='mycard'>
                         <div className="card-2">
                             {
                                 SKILLS2.map((s, index) => <Badge key={index} text={s}/>)
                             }
                         </div>
                     </div>
-                    <div className='card'>
+                    <div className='mycard'>
                         <h1>SKILLS</h1>
                     </div>
                 </div>
