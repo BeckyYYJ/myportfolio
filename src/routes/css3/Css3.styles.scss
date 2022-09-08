@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Rancho&display=swap');
+.Css3-shell{
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+
+}
+#header{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  & .logo{
+    color: #094b65;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+  }
+  & ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & li{
+      list-style: none;
+      margin-left: 20px;
+      & a{
+        text-decoration: none;
+        padding: 6px 15px;
+        color: #094b65;
+        border-radius: 20px;
+        &:hover{
+          background-color: #094b65;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.css3-section{
+  overflow: hidden;
+  top: 70px;
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  //flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & #text{
+    position: absolute;
+    font-family: 'Rancho', cursive;
+    color: #094b65;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    //transform: translateY(-0px);
+    & span{
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.20em;
+      letter-spacing: 2px;
+      font-weight: 400;
+    }
+  }
+  & img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  &::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    left: 0;
+    background:  #094b65;
+    //background: linear-gradient(to top,#094b65, rgba(9, 75, 101, 0.1));
+    z-index: 200;
+  }
+}
+#btn{
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #fff;
+  color: #094b65;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+  z-index: 50;
+}
+.sec{
+  position: relative;
+  padding: 100px;
+  background: #094b65;
+  color: white;
+}
+.sec h2{
+  font-size: 3.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sec p{
+  font-size: 2em;
+}

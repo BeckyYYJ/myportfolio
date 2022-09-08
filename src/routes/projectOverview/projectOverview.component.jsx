@@ -27,6 +27,28 @@ const ProjectOverview = () => {
                         img:
                             'assets/css/p-css-3.gif'
                     },
+                    {
+                        name: 'Static Html/Css Web page',
+                        description:
+                            '',
+                        url:
+                            '/css3',
+                        github:
+                            '',
+                        img:
+                            'assets/css/p-css-4.gif'
+                    },
+                    {
+                        name: 'Static Html/Css Web page',
+                        description:
+                            '',
+                        url:
+                            '/css2',
+                        github:
+                            '',
+                        img:
+                            'assets/css/p-css-5.gif'
+                    },
                 ],
             js: [ {
                 name: 'Static Js Web page',

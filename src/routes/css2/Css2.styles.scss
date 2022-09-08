@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Rancho&display=swap');
+.css2-shell{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 3px;
+
+  & *{
+    padding: 0;
+    margin: 0;
+  }
+}
+.css2-shell img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.css2-shell div{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.css2-image{
+  margin: auto;
+  transform: translateZ(-1px) scale(1.8);
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+}
+.css2-text{
+  height: 50vh;
+  background-color: white;
+  & h1{
+    color: black;
+  }
+}
+.css2-heading{
+  font-weight: bold;
+  z-index: -1;
+  transform: translateY(-35vh) translateZ(1.5px);
+  color: white;
+  font-size: 30px;
+}

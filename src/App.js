@@ -11,6 +11,8 @@ import ShowButton from "./routes/showButton/showButton.component";
 import ProjectOverview from "./routes/projectOverview/projectOverview.component";
 import LoadingPage from "./routes/loadingPage/loadingPage.component";
 import Test from "./routes/css1/test";
+import Css2 from "./routes/css2/Css2.component";
+import Css3 from "./routes/css3/Css3.component";
 
 function App() {
     return (
@@ -27,6 +29,9 @@ function App() {
             <Route path='/universePhoto' element={<Js2/>}/>
             <Route path='/3d' element={<ThreeDphoto/>}/>
             <Route path='/wave' element={<Wave/>}/>
+            <Route path='/css2' element={<Css2/>}/>
+            <Route path='/css3' element={<Css3/>}/>
+
             {/*<Route path='/weather' element={<Weather/>}/>*/}
         </Routes>
     );
