@@ -31,7 +31,6 @@ function App() {
             <Route path='/wave' element={<Wave/>}/>
             <Route path='/css2' element={<Css2/>}/>
             <Route path='/css3' element={<Css3/>}/>
-
             {/*<Route path='/weather' element={<Weather/>}/>*/}
         </Routes>
     );
