@@ -12,7 +12,7 @@
   transition: 0.2s;
   border: 1.5px solid;
   cursor: cell;
-  animation: badge-color-change infinite 1.5s;
+  animation: badge-color-change infinite 4s;
   &:hover{
     background-color: rgba(255, 255, 255, 0.5);
     transform: scale(1.2);
@@ -20,11 +20,12 @@
 
 }
 
+
 @keyframes badge-color-change {
   from,to{
-    border-color: $btn6;
+    border-color: #4eff69;
   }
   50%{
-    border-color: $btn5;
+    border-color: #a4d754;
   }
 }

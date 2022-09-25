@@ -4,7 +4,7 @@ $btn1: #ff9794;  $btn2: #ffaf17;  $btn3:  #fffa00;
 $btn4: #acff05;  $btn5: #68ff9d;$btn6: #95fffc;
 $btn7: #fe24ff;  $btn8: #f473ff;$btn9: #ff87ca;
 $btn10: #ff6c95;
-$btn6-c: #ffffff;
+$btn6-c: #136068;
 $btn8-showMore: #21d4fd;
 
 .btn-animated {
@@ -332,7 +332,7 @@ $btn8-showMore: #21d4fd;
     z-index: -1;
   }
   &:hover {
-    color: $bg;
+    color: white;
     &:hover:before {
       width: 90%;
     }

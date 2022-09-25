@@ -1,0 +1,47 @@
+.navigation-container {
+  z-index: 5;
+  position: absolute;
+  //position: fixed;
+  width: 100%;
+  //background-color: transparent;
+  height: 50px;
+  align-items: center;
+  //line-height: 50px;
+  color: #136068;
+  display: flex;
+  justify-content: space-between;
+  //background-color: rgba(19, 96, 104, 0);
+  //background: #136068;
+  background: none;
+  //background: linear-gradient(90.21deg, rgba(125,38,170,0.5) -5.91%, rgba(74, 47, 189, 0.1) 111.58%);
+  div {
+    padding: 1px;
+    span{
+      padding: 0.1px 1.1vw;
+      margin: 0 5px;
+    }
+    .navi-name {
+      font-size: 1.1em;
+      font-weight: bold;
+      border-right: #bdc3c9 1px solid;
+    }
+
+    .navi-projects:hover {
+      background-color: rgba(51, 52, 52, 0.85);
+      cursor: pointer;
+    }
+    .nave-skills:hover{
+      background-color: rgba(51, 52, 52, 0.85);
+      cursor: pointer;
+    }
+  }
+  .contacts {
+
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .navigation-container {
+    flex-direction: column;
+  }
+}

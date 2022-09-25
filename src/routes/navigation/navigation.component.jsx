@@ -7,11 +7,10 @@ import React from "react";
 const Navigation = () => {
     return (
         <>
-
-            <div className="navigation-container">
+            <div className="navigation-container_p">
                 <div>
                     <span className="navi-name">Yingji Yan</span>
-                    <Link to="/projects"><Button  type="6-contacts" text="Projects" /></Link>
+                    <Link to="/projects"><Button  type="1" text="Projects" /></Link>
                     {/*<a href="#skills">*/}
                     {/*<span className="nave-skills">Skills</span>*/}
                     {/*</a>*/}
