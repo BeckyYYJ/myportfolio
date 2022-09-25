@@ -14,7 +14,7 @@ export class Path extends Component {
         element.style.strokeDashoffset = len;
         window.addEventListener('scroll',()=>{
             var a = len - (window.scrollY)*(window.scrollY)/7600;
-            console.log(a);
+            // console.log(a);
             // var scollPercentage = window.scrollY/1.5;
             // var drawLen = len * scollPercentage;
             element.style.strokeDashoffset = a;
