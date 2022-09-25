@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9c3d47-1f40-47d1-bf0a-d434b1e0ef2a" name="Default Changelist" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Badge/badge.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Badge/badge.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/button/button.styles..scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/button.styles..scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/home.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/newHome/newHome.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/newHome/newHome.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/projectOverview/projectOverview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/projectOverview/projectOverview.component.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,12 +68,12 @@
           <entry key="ico" value="6" />
           <entry key="iml" value="1" />
           <entry key="jpg" value="11" />
-          <entry key="js" value="65" />
+          <entry key="js" value="67" />
           <entry key="json" value="11" />
-          <entry key="jsx" value="255" />
+          <entry key="jsx" value="262" />
           <entry key="md" value="1" />
           <entry key="png" value="36" />
-          <entry key="scss" value="203" />
+          <entry key="scss" value="206" />
           <entry key="svg" value="27" />
           <entry key="toml" value="1" />
           <entry key="ts" value="3" />
@@ -94,11 +87,11 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="67" />
           <entry key="JSON" value="11" />
-          <entry key="JSX Harmony" value="255" />
-          <entry key="JavaScript" value="65" />
+          <entry key="JSX Harmony" value="262" />
+          <entry key="JavaScript" value="67" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SCSS" value="203" />
+          <entry key="SCSS" value="206" />
           <entry key="SVG" value="27" />
           <entry key="TypeScript" value="3" />
         </counts>
@@ -114,8 +107,8 @@
           <entry key="html" value="38" />
           <entry key="js" value="720" />
           <entry key="json" value="458" />
-          <entry key="jsx" value="22378" />
-          <entry key="scss" value="19690" />
+          <entry key="jsx" value="22464" />
+          <entry key="scss" value="19694" />
           <entry key="svg" value="77" />
           <entry key="txt" value="1" />
         </counts>
@@ -124,10 +117,10 @@
         <counts>
           <entry key="HTML" value="38" />
           <entry key="JSON" value="458" />
-          <entry key="JSX Harmony" value="22378" />
+          <entry key="JSX Harmony" value="22464" />
           <entry key="JavaScript" value="720" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="19690" />
+          <entry key="SCSS" value="19694" />
           <entry key="SVG" value="77" />
         </counts>
       </usages-collector>
@@ -135,11 +128,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="249" column="63" lean-forward="true" selection-start-line="249" selection-start-column="63" selection-end-line="249" selection-end-column="63" />
+            <state relative-caret-position="273">
+              <caret line="553" column="62" selection-start-line="553" selection-start-column="62" selection-end-line="553" selection-end-column="62" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#2738#3025#0" />
@@ -153,10 +146,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/navigation2/navigation.component.jsx">
+        <entry file="file://$PROJECT_DIR$/src/routes/loadingPage/loadingPage.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state>
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -164,18 +156,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/newHome/newHome.styles.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/home/home.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="281" column="31" lean-forward="true" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
+            <state>
               <folding>
-                <element signature="e#1803#3728#0" />
-                <element signature="e#6025#7134#0" />
-                <element signature="e#16302#16576#0" />
-                <element signature="e#16593#16622#0" />
-                <element signature="e#16634#16697#0" />
-                <element signature="e#16709#16772#0" />
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/css2/Css2.component.jsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/3Dphoto/3Dphoto.component.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,29 +186,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="276">
               <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="84" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/button/button.styles..scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -246,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/routes/css3/Css3.component.jsx" />
         <option value="$PROJECT_DIR$/src/routes/css3/Css3.styles.scss" />
         <option value="$PROJECT_DIR$/src/routes/css2/Css2.styles.scss" />
-        <option value="$PROJECT_DIR$/src/routes/projectOverview/projectOverview.component.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/netlify.toml" />
         <option value="$PROJECT_DIR$/src/component/banner/banner2.syles.scss" />
@@ -269,8 +252,9 @@
         <option value="$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss" />
         <option value="$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx" />
         <option value="$PROJECT_DIR$/src/component/button/button.styles..scss" />
-        <option value="$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx" />
         <option value="$PROJECT_DIR$/src/routes/newHome/newHome.styles.scss" />
+        <option value="$PROJECT_DIR$/src/routes/projectOverview/projectOverview.component.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx" />
       </list>
     </option>
   </component>
@@ -359,6 +343,34 @@
               <item name="myportfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myportfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myportfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="3Dphoto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myportfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myportfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="css2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myportfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myportfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myportfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myportfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="loadingPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myportfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -494,7 +506,7 @@
       <workItem from="1663431262530" duration="15671000" />
       <workItem from="1663859415465" duration="294000" />
       <workItem from="1663946917711" duration="9698000" />
-      <workItem from="1664042930013" duration="21796000" />
+      <workItem from="1664042930013" duration="22807000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659819971175</created>
@@ -507,7 +519,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441937000" />
+    <option name="totallyTimeSpent" value="442948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,7 +531,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28686327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -586,24 +599,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/logo192.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/logo512.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/skills/Redux.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -692,38 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/project-card.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/project/project.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/projectOverview/projectOverview.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,27 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/navigation2/navigation2.styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -819,45 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/navigation2/navigation.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="249" column="63" lean-forward="true" selection-start-line="249" selection-start-column="63" selection-end-line="249" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#2738#3025#0" />
-            <element signature="e#12022#12629#0" />
-            <element signature="e#23373#32197#0" />
-            <element signature="e#33466#33763#0" />
-            <element signature="e#33504#33638#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/newHome/newHome.styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="281" column="31" lean-forward="true" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
+        <state relative-caret-position="391">
+          <caret line="530" column="26" lean-forward="true" selection-start-line="530" selection-start-column="26" selection-end-line="530" selection-end-column="26" />
           <folding>
             <element signature="e#1803#3728#0" />
             <element signature="e#6025#7134#0" />
@@ -865,6 +780,123 @@
             <element signature="e#16593#16622#0" />
             <element signature="e#16634#16697#0" />
             <element signature="e#16709#16772#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/project/project.styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/projectOverview/projectOverview.styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/navigation/navigation.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/home/home.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/css2/Css2.component.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/3Dphoto/3Dphoto.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/loadingPage/loadingPage.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/navigation2/navigation.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/project/project.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/navigation/navigation.styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/projectOverview/projectOverview.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/newHome/newHome.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="553" column="62" selection-start-line="553" selection-start-column="62" selection-end-line="553" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#2738#3025#0" />
+            <element signature="e#12022#12629#0" />
+            <element signature="e#23373#32197#0" />
+            <element signature="e#33466#33763#0" />
+            <element signature="e#33504#33638#0" />
           </folding>
         </state>
       </provider>

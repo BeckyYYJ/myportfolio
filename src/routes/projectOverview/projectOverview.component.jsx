@@ -111,7 +111,7 @@ const ProjectOverview = () => {
                     <br/> <br/> <br/>
                     <h6 className="info">
                         <span className="material-symbols-outlined">info</span>Click the Gif to check the certain web page.
-                        Or Click the CHECK OUT button to check certain category.
+                        {/*Or Click the CHECK OUT button to check certain category.*/}
                     </h6>
                     <ProjectPreview title="HTML&CSS" projects={allProjects.css} url="css"/>
                     <ProjectPreview title="JavaScript" projects={allProjects.js} url="js"/>

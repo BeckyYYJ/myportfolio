@@ -7,9 +7,9 @@ import React from "react";
 import TrackVisibility from 'react-on-screen';
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
-import {Link} from "react-router-dom";
 
 const NewHome = () => {
+
     const [scrollY, setScrollY] = useState(0);
     const [showNext, setShowNext] = useState('none');
     const [cursorX, setCursorX] = useState(400);
@@ -549,11 +549,13 @@ const NewHome = () => {
                                     transform: "translateX(" + bgmove[0] / 150 + "px) translateY(" + bgmove[1] / 200 + "px)"
                                 }}/>
                             </div>
-                            <Link to="/projects">
-                                <button className="exmore animate__animated animate__zoomIn animate__delay-2s">Explore
+                                <button className="exmore animate__animated animate__zoomIn animate__delay-2s"
+                                        onClick={()=>{window.open("/projects")}}
+
+                                >Explore
                                     More
                                 </button>
-                            </Link> <h1 className="animate__animated animate__zoomIn">Thank you for viewing</h1></>
+                            <h1 className="animate__animated animate__zoomIn">Thank you for viewing</h1></>
 
                     )}
                 </TrackVisibility>
