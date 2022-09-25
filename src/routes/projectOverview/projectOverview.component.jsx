@@ -1,6 +1,8 @@
 import './projectOverview.styles.scss'
 import ProjectPreview from "../../component/projectPreview/projectPreview.component";
 import ThreeDphoto from "../3Dphoto/3Dphoto.component";
+import TrackVisibility from "react-on-screen";
+import React from "react";
 
 const ProjectOverview = () => {
         const allProjects = {
@@ -31,7 +33,7 @@ const ProjectOverview = () => {
                     {
                         name: 'Static Html/Css Web page',
                         description:
-                            '',
+                            'trying Parallax Scrolling Effects',
                         url:
                             '/css3',
                         github:
@@ -42,7 +44,7 @@ const ProjectOverview = () => {
                     {
                         name: 'Static Html/Css Web page',
                         description:
-                            '',
+                            'trying Parallax Scrolling Effects',
                         url:
                             '/css2',
                         github:
@@ -54,7 +56,7 @@ const ProjectOverview = () => {
             js: [{
                 name: 'Static Js Web page',
                 description:
-                    '',
+                    ' trying panorama web page',
                 url:
                     '/360Photo',
                 github:
@@ -109,14 +111,30 @@ const ProjectOverview = () => {
             <div className="projects-overview-container-c">
                 <div className="projects-overview-container">
                     <br/> <br/> <br/>
-                    <h6 className="info">
-                        <span className="material-symbols-outlined">info</span>Click the Gif to check the certain web page.
+                    <svg className="animate__animated animate__fadeIn" width="173" height="167" viewBox="0 0 173 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="projects-overview-path" d="M60 51.5L86.5 1.5L115 51.5L172 64L131.5 106.5L141.5 166L86.5 139L33 166L43 106.5L1.5 64L60 51.5Z" strokeWidth={5} stroke="black"/>
+                    </svg>
+                    <h6 className="info animate__animated animate__fadeInDown">
+                        <h3>This page includes projects and single web page/demo (UI design) </h3>
+                        <span className="material-symbols-outlined ">info</span>Click the Gif to check the certain web page.
                         {/*Or Click the CHECK OUT button to check certain category.*/}
                     </h6>
-                    <ProjectPreview title="HTML&CSS" projects={allProjects.css} url="css"/>
-                    <ProjectPreview title="JavaScript" projects={allProjects.js} url="js"/>
-                    <ProjectPreview title="React" projects={allProjects.react} url="react"/>
-                    <ProjectPreview title="Others" projects={allProjects.others} url="others"/>
+                    <TrackVisibility className="projects-overview-track1" once>
+                        {({isVisible}) => isVisible && (
+                    <ProjectPreview title="HTML&CSS" projects={allProjects.css} url="css"/>)}
+                    </TrackVisibility>
+                    <TrackVisibility  className="projects-overview-track2" once>
+                        {({isVisible}) => isVisible && (
+                    <ProjectPreview title="JavaScript" projects={allProjects.js} url="js"/>)}
+                    </TrackVisibility>
+                    <TrackVisibility  className="projects-overview-track2" once>
+                        {({isVisible}) => isVisible && (
+                    <ProjectPreview title="React" projects={allProjects.react} url="react"/>)}
+                    </TrackVisibility>
+                    <TrackVisibility  className="projects-overview-track2" once>
+                        {({isVisible}) => isVisible && (
+                    <ProjectPreview title="Others" projects={allProjects.others} url="others"/>)}
+                    </TrackVisibility>
                     <ThreeDphoto/>
 
                 </div>

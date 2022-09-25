@@ -3,7 +3,7 @@ import {useState} from "react";
 import {Link} from "react-router-dom";
 import 'animate.css';
 
-const ProjectCard=({project})=>{
+const ProjectCard=({project,className})=>{
     const [isProjectDetailsShow, setIsProjectDetailsShow] = useState(false);
     const handle = () => {
         setIsProjectDetailsShow(true);
@@ -13,7 +13,7 @@ const ProjectCard=({project})=>{
         window.open(project.url);
     };
     return (
-        <section className="projectCard-container" onClick={redirect} onMouseOver={handle} onMouseOut={()=>setIsProjectDetailsShow(false)} >
+        <section className={`projectCard-container ${className}`} onClick={redirect} onMouseOver={handle} onMouseOut={()=>setIsProjectDetailsShow(false)} >
             {isProjectDetailsShow ? (
                 <div className="projectCard-detail animate__animated animate__fadeIn">
                     <span className="projectCard-name">{project.name}</span>

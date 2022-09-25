@@ -34,7 +34,6 @@ const Js1 = () => {
                 <div className="c">RETURN</div>
                 <div className="a">Click Me</div>
                 <div className="b">Click Me</div>
-
             </div>
             <div className="bar"
         >

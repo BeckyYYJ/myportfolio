@@ -43,7 +43,6 @@ const ThreeDphoto = () => {
                 <Cube3 left="120"  icon="ios_share"/>       <Cube3 left="160"  icon="keyboard_voice"/>    <Cube3 left="200"  icon="settings"/>
                 <Cube3 left="240" icon="favorite"/>         <Cube3 left="280" icon="home"/>
                 <div className="shadow">
-
                 </div>
             </div>
         </div>)
