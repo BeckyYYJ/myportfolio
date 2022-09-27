@@ -1,13 +1,19 @@
 .projectCard-gif {
-  width: 100%;
+  width: 385px;
   border-radius: 10px;
   //border: #ababab dashed 1px;
   padding: 2px;
   //clip-path: circle();
   height: 230px;
   box-shadow: 5px 2px 20px #d6d6d6;
+  @media screen and (max-width: 950px) and (min-width: 450px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 90%;
+    height: 130px;
+  }
 }
-
 .projectCard-detail {
   border-bottom: rgba(112, 57, 132, 0.24) solid 4px;
   border-radius: 10px;  box-shadow: 5px 2px 20px #d6d6d6;
@@ -15,12 +21,16 @@
   //background-color: rgba(98, 81, 194, 0.58);
   //background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
   background-image: linear-gradient(120deg, rgba(224, 195, 252, 0.35) 0%, #8ec5fc26 102%);
-  width: 100%;
+  width: 385px;
   height: 230px;
   display: flex;
   flex-direction: column;
-  span {
-    margin: 20px auto;
+  @media screen and (max-width: 950px) and (min-width: 450px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 90%;
+    height: 130px;
   }
   .projectCard-name {
     font-family: "Times New Roman";

@@ -119,19 +119,20 @@ const ProjectOverview = () => {
                         <span className="material-symbols-outlined ">info</span>Click the Gif to check the certain web page.
                         {/*Or Click the CHECK OUT button to check certain category.*/}
                     </h6>
-                    <TrackVisibility className="projects-overview-track1" once>
+\
+                    <TrackVisibility className="projects-overview-track1" once offset={200}>
                         {({isVisible}) => isVisible && (
                     <ProjectPreview title="HTML&CSS" projects={allProjects.css} url="css"/>)}
                     </TrackVisibility>
-                    <TrackVisibility  className="projects-overview-track2" once>
+                    <TrackVisibility  className="projects-overview-track2" once offset={200}>
                         {({isVisible}) => isVisible && (
                     <ProjectPreview title="JavaScript" projects={allProjects.js} url="js"/>)}
                     </TrackVisibility>
-                    <TrackVisibility  className="projects-overview-track2" once>
+                    <TrackVisibility  className="projects-overview-track2" once offset={200}>
                         {({isVisible}) => isVisible && (
                     <ProjectPreview title="React" projects={allProjects.react} url="react"/>)}
                     </TrackVisibility>
-                    <TrackVisibility  className="projects-overview-track2" once>
+                    <TrackVisibility  className="projects-overview-track2" once offset={200}>
                         {({isVisible}) => isVisible && (
                     <ProjectPreview title="Others" projects={allProjects.others} url="others"/>)}
                     </TrackVisibility>
