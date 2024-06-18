@@ -24,3 +24,29 @@ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 monospace;
 }
 $bg:#1f3e56;
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 12px !important; 
+  }
+  .third-page-project-content-title{
+    font-size: 18px !important; 
+  }
+  .code span{
+    // font-size: 12px !important; 
+  }
+  .third-page-project{
+    height: 440px !important;
+  }
+  .third-page-project-content-tags{
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .project3-container{
+    margin: 90px 0 !important;
+    height: 500px !important;
+  }
+  .project1-container{
+    height: 480px !important;
+    
+  }
+}

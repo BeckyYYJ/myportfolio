@@ -73,8 +73,9 @@ export const Banner = () => {
                     <span className='tag'>Welcome To My Portfolio</span>
                     <span className='span-title'>{text}</span>
                     <span className='span-text'>
-                        Hello, I am currently a graduate student at USC Viterbi School of Engineering.
-                    I am looking for a job as a SDE/SWE.
+                        Hello, I graduated from USC Viterbi School of Engineering at 12/2022.
+                    I am looking for a job as a Front-end Developer/Full-Stack Developer.
+                    Following are some of my personal projects.
                     </span>
                 </div>
                 <div className="banner-right">
